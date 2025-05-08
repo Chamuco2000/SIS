@@ -17,7 +17,7 @@ call = ["Jackeline Tapia"]
 personas = asesores + asistentes_52 + asistentes_62 + call
 
 
-def generar_horario(mes_num, anio, dia_descanso_call, feriados, feriado_largo, vacaciones_jackeline,
+def generar_horario_completo(mes_num, anio, dia_descanso_call, feriados, feriado_largo, vacaciones_jackeline,
                     estado_descanso, fase_haydee, modo_haydee):
     num_dias = calendar.monthrange(anio, mes_num)[1]
     dias_mes = list(range(1, num_dias + 1))

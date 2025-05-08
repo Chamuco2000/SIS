@@ -534,9 +534,3 @@ with pd.ExcelWriter(archivo, engine="openpyxl") as writer:
         ws.column_dimensions[col_letter].width = max_length + 2
 
 print(f"\n✅ Horario COMPLETO FINAL generado con formato: {archivo}")
-
-
-
-
-
-
